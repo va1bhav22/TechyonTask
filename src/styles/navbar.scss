@@ -1,0 +1,38 @@
+@import "../styles/_colors.scss";
+.navbar {
+  height: 60px;
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  .navMenus {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    .companyName {
+      font-size: 24.22px;
+      font-weight: 700;
+      color: $white;
+      padding: 20px;
+      margin-left: 50px;
+    }
+    .iconsContainer {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 5px;
+      align-items: center;
+      gap: 25px;
+      width: 100%;
+      div {
+        display: flex;
+        align-items: center;
+      }
+      .icons {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+}
