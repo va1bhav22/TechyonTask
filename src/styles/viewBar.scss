@@ -1,6 +1,9 @@
 @import "../styles/_colors.scss";
 
 .MainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   .viewBarContainer {
     display: flex;
     justify-content: space-between;
