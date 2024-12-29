@@ -1,0 +1,101 @@
+@import "../styles/_colors.scss";
+.project-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-color: gray;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  .table-header {
+    th {
+      font-size: 12px;
+      font-weight: 700;
+      padding: 2px 16px;
+    }
+  }
+  td {
+    padding: 2px 16px;
+    text-align: left;
+    font-family: inter;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+  }
+
+  th {
+    font-weight: 500;
+    color: #666;
+  }
+
+  .status-badge {
+    font-weight: 500;
+    text-align: center;
+
+    &.not-started {
+      background-color: #9ca3af;
+      color: white;
+    }
+
+    &.in-progress {
+      background-color: #3b82f6;
+      color: white;
+    }
+
+    &.completed {
+      background-color: #22c55e;
+      color: white;
+    }
+
+    &.archived {
+      background-color: #64748b;
+      color: white;
+    }
+  }
+
+  .progress-section {
+    flex: 1;
+    .progress-bar {
+      width: 100%;
+      height: 14px;
+      background: #e5e5e5;
+      border-radius: 10px;
+
+      .progress {
+        height: 100%;
+        background: #4caf50;
+        border-radius: 10px;
+        transition: width 0.3s ease;
+      }
+    }
+  }
+
+  .owner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+    }
+  }
+
+  .access-button {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    color: #374151;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    &:hover {
+      background: #e5e7eb;
+    }
+  }
+}
