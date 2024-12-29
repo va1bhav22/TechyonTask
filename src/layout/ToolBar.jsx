@@ -4,6 +4,7 @@ import menu from "../assets/icons/menu.png";
 import plus from "../assets/icons/plus.png";
 import Clouds from "../assets/icons/Clouds.png";
 import Line from "../assets/icons/Line 47.png";
+import BigGrids from "../assets/icons/biggrid_view.png";
 import {
   Arrows,
   BigGrid,
@@ -49,9 +50,7 @@ const ToolBar = () => {
           <People />
         </div>
         <img src={Line} alt="" />
-        <div className="SvgIcon">
-          <BigGrid />
-        </div>
+        <img src={BigGrids} alt="" />
 
         <div className="SvgIcon">
           <Help />

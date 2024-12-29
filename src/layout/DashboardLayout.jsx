@@ -7,7 +7,7 @@ const DashboardLayout = ({ children }) => {
       <Navbar />
       <section style={{ display: "flex" }}>
         <ToolBar />
-        <section style={{ padding: "20px" }}>{children}</section>
+        <section style={{ padding: "20px", width: "100%" }}>{children}</section>
       </section>
     </section>
   );

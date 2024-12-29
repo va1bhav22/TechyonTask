@@ -1,0 +1,46 @@
+@import "../styles/_colors.scss";
+
+.topBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .topBarItems {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    .topBarTitle {
+      font-size: 32px;
+      color: $primary-color;
+      font-weight: 500;
+      font-family: inter;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    .topBarButton {
+      background-color: $primary-color;
+      border-radius: 8px;
+      padding: 3px 14px;
+      color: $white;
+      display: flex;
+      gap: 6px;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+  .breadcrumb {
+    p {
+      font-family: inter;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+      .start {
+        color: #8a8a8a;
+        font-weight: 400;
+      }
+      .active {
+        color: #007aff;
+        font-weight: 400;
+      }
+    }
+  }
+}
