@@ -20,7 +20,7 @@ import {
 } from "../assets/icons";
 const ToolBar = () => {
   return (
-    <section className="toolBarContainer">
+    <section style={{ zIndex: "9999" }} className="toolBarContainer">
       <div className="menuItems">
         <img src={menu} alt="Menu" />
         <img src={plus} alt="Add " />

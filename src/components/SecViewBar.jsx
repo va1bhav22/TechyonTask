@@ -5,7 +5,9 @@ import dots from "../assets/icons/dots.png";
 import { Content, Filter, Grid9 } from "../assets/icons";
 import TableView from "./TableView";
 import GridView from "./GridView";
-const ViewBar = () => {
+import SecGridView from "./SecGridView";
+import SectableView from "./SectableView";
+const SecViewBar = () => {
   const [activeView, setActiveView] = useState("grid");
   return (
     <section className="MainContainer">
@@ -37,12 +39,13 @@ const ViewBar = () => {
               <Filter />
             </div>
           )}
+
           <img src={dots} alt="" />
         </div>
       </section>
-      <div>{activeView === "grid" ? <GridView /> : <TableView />}</div>
+      <div>{activeView === "grid" ? <SecGridView /> : <SectableView />}</div>
     </section>
   );
 };
 
-export default ViewBar;
+export default SecViewBar;

@@ -8,7 +8,7 @@ import setting from "../assets/icons/setting-5@2x.png";
 import arrow from "../assets/icons/arrow-down.png";
 const Navbar = () => {
   return (
-    <section className="navbar">
+    <section style={{ zIndex: "9999" }} className="navbar">
       <div className="navMenus">
         <span className="companyName">TECHYON</span>
         <div className="iconsContainer">
