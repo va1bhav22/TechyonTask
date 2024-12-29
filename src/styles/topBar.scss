@@ -14,7 +14,7 @@
       color: $primary-color;
       font-weight: 500;
       font-family: inter;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      text-shadow: $default-text-shadow;
     }
     .topBarButton {
       background-color: $primary-color;
@@ -25,13 +25,13 @@
       gap: 6px;
       justify-content: center;
       align-items: center;
-      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: $default-box-shadow;
     }
   }
   .breadcrumb {
     p {
       font-family: inter;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      text-shadow: $default-text-shadow;
 
       .start {
         color: #8a8a8a;

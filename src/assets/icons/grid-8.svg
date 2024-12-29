@@ -1,0 +1,88 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#F5F5F5"/>
+<g id="Screens">
+<path d="M-1394 -356C-1394 -357.105 -1393.1 -358 -1392 -358H323C324.104 -358 325 -357.105 325 -356V3071C325 3072.1 324.105 3073 323 3073H-1392C-1393.1 3073 -1394 3072.1 -1394 3071V-356Z" fill="#888888"/>
+<path d="M-1392 -357H323V-359H-1392V-357ZM324 -356V3071H326V-356H324ZM323 3072H-1392V3074H323V3072ZM-1393 3071V-356H-1395V3071H-1393ZM-1392 3072C-1392.55 3072 -1393 3071.55 -1393 3071H-1395C-1395 3072.66 -1393.66 3074 -1392 3074V3072ZM324 3071C324 3071.55 323.552 3072 323 3072V3074C324.657 3074 326 3072.66 326 3071H324ZM323 -357C323.552 -357 324 -356.552 324 -356H326C326 -357.657 324.657 -359 323 -359V-357ZM-1392 -359C-1393.66 -359 -1395 -357.657 -1395 -356H-1393C-1393 -356.552 -1392.55 -357 -1392 -357V-359Z" fill="black" fill-opacity="0.1"/>
+<g id="Project Over view/Kanban" clip-path="url(#clip0_64_7131)">
+<rect width="1280" height="1696" transform="translate(-1179 -162)" fill="white"/>
+<g id="Frame 1000004815">
+<g id="Frame 26" filter="url(#filter0_dd_64_7131)">
+<g id="Frame 1000004840">
+<g id="Frame 1000004841">
+<g id="Frame 1000004816">
+<g id="View Type Switch (Kanban or List)" filter="url(#filter1_d_64_7131)">
+<path d="M-8 -2C-8 -5.31371 -5.31371 -8 -2 -8H26C29.3137 -8 32 -5.31371 32 -2V26C32 29.3137 29.3137 32 26 32H-2C-5.31371 32 -8 29.3137 -8 26V-2Z" fill="white" shape-rendering="crispEdges"/>
+<path d="M-7.75 -2C-7.75 -5.17564 -5.17564 -7.75 -2 -7.75H26C29.1756 -7.75 31.75 -5.17564 31.75 -2V26C31.75 29.1756 29.1756 31.75 26 31.75H-2C-5.17564 31.75 -7.75 29.1756 -7.75 26V-2Z" stroke="#CCCCCC" stroke-width="0.5" shape-rendering="crispEdges"/>
+<g id="*Button* " filter="url(#filter2_d_64_7131)">
+<mask id="path-5-inside-1_64_7131" fill="white">
+<path d="M-8 -2C-8 -5.31371 -5.31371 -8 -2 -8H26C29.3137 -8 32 -5.31371 32 -2V26C32 29.3137 29.3137 32 26 32H-2C-5.31371 32 -8 29.3137 -8 26V-2Z"/>
+</mask>
+<path d="M-8 -2C-8 -5.31371 -5.31371 -8 -2 -8H26C29.3137 -8 32 -5.31371 32 -2V26C32 29.3137 29.3137 32 26 32H-2C-5.31371 32 -8 29.3137 -8 26V-2Z" fill="#2D446E" shape-rendering="crispEdges"/>
+<path d="M-2 -7H26V-9H-2V-7ZM31 -2V26H33V-2H31ZM26 31H-2V33H26V31ZM-7 26V-2H-9V26H-7ZM-2 31C-4.76142 31 -7 28.7614 -7 26H-9C-9 29.866 -5.86599 33 -2 33V31ZM31 26C31 28.7614 28.7614 31 26 31V33C29.866 33 33 29.866 33 26H31ZM26 -7C28.7614 -7 31 -4.76142 31 -2H33C33 -5.86599 29.866 -9 26 -9V-7ZM-2 -9C-5.86599 -9 -9 -5.86599 -9 -2H-7C-7 -4.76142 -4.76142 -7 -2 -7V-9Z" fill="#2D446E" mask="url(#path-5-inside-1_64_7131)"/>
+<g id="Frame 1000004671">
+<g id="Content">
+<g id="vuesax/linear/grid-8">
+<g id="vuesax/linear/grid-8_2">
+<g id="grid-8">
+<path id="Vector" d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2 12H22" stroke="#E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M8.25 12V21.5" stroke="#E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M15.75 22V12" stroke="#E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M8.25 12V2" stroke="#E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M15.75 12V2.54004" stroke="#E6E6E6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd_64_7131" x="-1108" y="-77" width="1188" height="815" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_64_7131"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_64_7131" result="effect2_dropShadow_64_7131"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_64_7131" result="shape"/>
+</filter>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_64_7131"/>
+<filter id="filter1_d_64_7131" x="-13" y="-12" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.176471 0 0 0 0 0.266667 0 0 0 0 0.431373 0 0 0 0.1 0"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_64_7131" result="shape"/>
+</filter>
+<filter id="filter2_d_64_7131" x="-13" y="-12" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.176471 0 0 0 0 0.266667 0 0 0 0 0.431373 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_64_7131"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_64_7131" result="shape"/>
+</filter>
+<clipPath id="clip0_64_7131">
+<rect width="1280" height="1696" fill="white" transform="translate(-1179 -162)"/>
+</clipPath>
+</defs>
+</svg>

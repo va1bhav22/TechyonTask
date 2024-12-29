@@ -1,0 +1,49 @@
+@import "../styles/_colors.scss";
+
+.MainContainer {
+  .viewBarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .viewBarItems {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .text {
+        text-shadow: $default-text-shadow;
+        color: $primary-color;
+        font-weight: 500;
+      }
+    }
+    .viewBarList {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .inactive {
+        box-shadow: $default-box-shadow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        padding: 10px;
+        svg {
+          stroke: gray;
+        }
+      }
+      .active {
+        box-shadow: $default-box-shadow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: $primary-color;
+
+        svg {
+          stroke: rgb(226, 218, 218);
+        }
+      }
+    }
+  }
+}
